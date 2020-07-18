@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="213.139.208.23" id="b3b37995-474f-4a29-9070-9aa256cb4a48" port="22" customName="Craft VPS" nameFormat="CUSTOM" username="root" />
+      <sshConfig authType="PASSWORD" host="woodtools.beget.tech" id="5af3ad69-bf45-4b10-89a6-873359c43f6a" port="22" customName="Craft хостинг" nameFormat="CUSTOM" username="woodtools" />
+    </configs>
+  </component>
+</project>
