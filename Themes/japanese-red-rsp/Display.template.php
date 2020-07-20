@@ -647,7 +647,7 @@ function template_main()
         if ( ! $user_info['is_guest'] && SayThanks::checkCanThank($message) && SayThanks::checkIfAlreadyThanked($message))
             echo '<div class="thank_you_button_bottom">',
                 '<a href="' . $scripturl . '?action=thank;msg=',$message['id'],
-                    ';member=',$user_info['id'],
+                    ';member=',$message['member']['id'],
                     ';topic=',$context['current_topic'],
                     '" class="thank_you_button_link">', $txt['saythanks_text'],
                 '</a>',

@@ -426,4 +426,32 @@ function show_db_error($loadavg = false)
 	die;
 }
 
+
+/**
+ * Simple debug trace to wp-content/debug.log
+ *
+ * @usage _log( $var );
+ */
+if ( ! function_exists( '_log' ) ) {
+    function _log( $log ) {
+
+        ob_start();
+
+        echo '[' . date('d-M-Y h:i:s T') . '] ';
+
+        if ( is_array( $log ) || is_object( $log ) ) {
+            print_r( $log );
+        } else {
+            echo( $log );
+        }
+
+        echo "\r\n";
+
+        file_put_contents( __DIR__ . '/_debug.log', ob_get_contents(), FILE_APPEND );
+
+        ob_end_clean();
+
+    }
+}
+
 ?>

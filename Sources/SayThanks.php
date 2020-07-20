@@ -43,6 +43,7 @@ class SayThanks
 		$msg = intval($_REQUEST['msg']);
 		$topic = intval($_REQUEST['topic']);
 		$member = intval($_REQUEST['member']);
+//        _log('$msg : ' . $msg .	' $topic : ' . $topic . ' $member : ' . $member . ' $user_info[id] : ' . $user_info['id']);
 		
 		if (empty($msg) || empty($topic) || empty($member) || (!empty($msg) && SayThanks::isPostOwner($msg))) {
 			if ($ajax) {
