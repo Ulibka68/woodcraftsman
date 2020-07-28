@@ -645,14 +645,9 @@ function template_main()
 
         /* Gayrat кнопка */
         if ( ! $user_info['is_guest'] && SayThanks::checkCanThank($message) && SayThanks::checkIfAlreadyThanked($message))
-            echo '<div class="thank_you_button_bottom">',
-                '<a href="' . $scripturl . '?action=thank;msg=',$message['id'],
-                    ';member=',$message['member']['id'],
-                    ';topic=',$context['current_topic'],
-                    '" class="thank_you_button_link">', $txt['saythanks_text'],
-                '</a>',
-            '</div>';
+            echo '<div class="thank_you_button_bottom">', template_saythanks_default(array('id' => $message['id'], 'id_member' => $message['member']['id'])), '</div>';
         /* Gayrat кнопка end*/
+
 
 
         echo '
