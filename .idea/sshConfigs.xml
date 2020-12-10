@@ -2,8 +2,16 @@
 <project version="4">
   <component name="SshConfigs">
     <configs>
-      <sshConfig authType="PASSWORD" host="213.139.208.23" id="b3b37995-474f-4a29-9070-9aa256cb4a48" port="22" customName="Craft VPS" nameFormat="CUSTOM" username="root" />
-      <sshConfig authType="PASSWORD" host="woodtools.beget.tech" id="5af3ad69-bf45-4b10-89a6-873359c43f6a" port="22" customName="Craft хостинг" nameFormat="CUSTOM" username="woodtools" />
+      <sshConfig authType="PASSWORD" host="213.139.208.23" id="b3b37995-474f-4a29-9070-9aa256cb4a48" port="22" customName="Craft VPS" nameFormat="CUSTOM" username="root">
+        <option name="customName" value="Craft VPS" />
+      </sshConfig>
+      <sshConfig authType="PASSWORD" host="woodtools.beget.tech" id="5af3ad69-bf45-4b10-89a6-873359c43f6a" port="22" customName="Craft хостинг" nameFormat="CUSTOM" username="woodtools">
+        <option name="customName" value="Craft хостинг" />
+      </sshConfig>
+      <sshConfig authType="PASSWORD" host="213.139.208.23" id="245662e1-8531-4dae-b52a-698541e5f9e5" port="22" nameFormat="DESCRIPTIVE" username="wtAsdKEcvh" />
+      <sshConfig host="213.139.208.23" id="b31e07b1-0f51-48e0-9a15-5ff8352869dc" keyPath="D:\sshkeys\beget\test1\priv.ppk" port="22" customName="VPS SSH" nameFormat="CUSTOM" username="wtAsdKEcvh">
+        <option name="customName" value="VPS SSH" />
+      </sshConfig>
     </configs>
   </component>
 </project>
