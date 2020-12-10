@@ -4,7 +4,9 @@
     <content url="file://G:/Мой диск/woodtools/sql">
       <excludeFolder url="file://G:/Мой диск/woodtools/sql" />
     </content>
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/UploadedAvatars" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
