@@ -4,3 +4,6 @@ Settings.php
 Settings local.php
 Settings VPS.php
 Sources/_debug.log
+.idea
+sitemap.xml
+sitemap_*.xml
