@@ -3,7 +3,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="9f50b083-9e63-4d5f-b276-cf2e117ae0f3" name="VPS" url="https://woodcraftsman.ru/">
-        <fileTransfer rootFolder="/home/w/woodtools/woodcraftsman.ru/public_html" accessType="SFTP" host="213.139.208.23" port="22" sshConfigId="b3b37995-474f-4a29-9070-9aa256cb4a48" sshConfig="Craft VPS">
+        <fileTransfer rootFolder="/home/w/woodtools/woodcraftsman.ru/public_html" accessType="SFTP" host="213.139.208.23" port="22" sshConfigId="82fc9711-7a77-48d6-a50e-f9c5067f0ac9" sshConfig="Craft VPS new">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>

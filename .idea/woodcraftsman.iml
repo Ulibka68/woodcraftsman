@@ -4,7 +4,6 @@
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/.idea/dataSources" />
       <excludeFolder url="file://$MODULE_DIR$/cache" />
-      <excludeFolder url="file://$MODULE_DIR$/UploadedAvatars" />
     </content>
     <content url="file://U:/Мой диск/woodtools/sql">
       <excludeFolder url="file://U:/Мой диск/woodtools/sql" />
