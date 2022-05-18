@@ -2,11 +2,12 @@
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/UploadedAvatars" />
       <excludeFolder url="file://$MODULE_DIR$/.idea/dataSources" />
       <excludeFolder url="file://$MODULE_DIR$/cache" />
     </content>
-    <content url="file://U:/Мой диск/woodtools/sql">
-      <excludeFolder url="file://U:/Мой диск/woodtools/sql" />
+    <content url="file://U:/Мой диск/woodtools/backups">
+      <excludeFolder url="file://U:/Мой диск/woodtools/backups" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
