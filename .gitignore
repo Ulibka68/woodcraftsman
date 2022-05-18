@@ -3,3 +3,10 @@ UploadedAvatars
 Settings.php
 Settings VPS.php
 Sources/_debug.log
+
+Settings_bak.php
+
+sitemap*.xml
+.idea
+sitemap.xml
+sitemap_*.xml
